@@ -7,11 +7,11 @@ There are 3 datasets used in the paper net learning, namely DS1, DS2, DS3. The d
 |      | Training - Test | Graph |
 | ---- | --------------- | ----- |
 | DS1  | Training        | 800   |
-| Test | 200             |       |
+|      | Test            | 200   |
 | DS2  | Training        | 4800  |
-| Test | 1200            |       |
+|      | Test            | 1200  |
 | DS3  | Training        | 22500 |
-| Test | 7500            |       |
+|      | Test            | 7500  |
 
 
 
