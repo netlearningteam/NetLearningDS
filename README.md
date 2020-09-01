@@ -80,7 +80,7 @@
 
 **DS+{index}**: The location where the index of the data set is stored.
 
-**ori_data**: Store the information that constitutes the original petri net. Original petri net (${A^{+}}^{T}$, ${A^{-}}^{T}$, ${M_{0}}^{T}$), reachable graph, λ, average number of markers and so on.
+**ori_data**: Store the information that constitutes the original petri net. Original petri net (![](https://latex.codecogs.com/gif.latex?{A^{&plus;}}^{T}$,&space;${A^{-}}^{T}$,&space;${M_{0}}^{T})), reachable graph, λ, average number of markers and so on.
 
 **preprocessd_data**: Preprocess the original ori_data into the input information of the net learning algorithm.
 
@@ -175,7 +175,7 @@ We save the data as a json file. There are two forms of data, including: unproce
 
 **data+{index}**: Store the index data.
 
-**petri_net**: Original petri net structure, (${A^{+}}^{T}$, ${A^{-}}^{T}$, ${M_{0}}^{T}$).
+**petri_net**: Original petri net structure,(![](https://latex.codecogs.com/gif.latex?{A^{&plus;}}^{T}$,&space;${A^{-}}^{T}$,&space;${M_{0}}^{T})).
 
 **arr_vlist**: The vertex set of the reachable graph.
 
