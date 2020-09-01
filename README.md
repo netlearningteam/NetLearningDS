@@ -2,7 +2,7 @@
 
 ## 1.  Overview:
 
- We generated three SPN data sets, in order to test the effectiveness of the network learning algorithm. The data in the data set is randomly generated, and the following steps are mainly used: (1) First, a SPN is randomly generated. (2) Generate reachability graph based on SPN. (3) Calculate the SPN performance index based on the reachable graph.  
+ We generated three SPN data sets, in order to test the effectiveness of the “Net Learning” algorithm. The data in the data set is randomly generated, and the following steps are mainly used: (1) First, a SPN is randomly generated. (2) Generate reachability graph based on SPN. (3) Calculate the SPN performance index based on the reachable graph.  
 
 
 
@@ -98,9 +98,9 @@ We save the data as a json file. There are two forms of data, including: unproce
 
  
 
-> ori_data/train_data.json
->
-> 
+1.   ori_data/train_data.json
+
+
 
 > ├─data1
 >
@@ -141,12 +141,10 @@ We save the data as a json file. There are two forms of data, including: unproce
 
 
 
- 
+2.   preprocessd_data/train_data.json
 
-> preprocessd_data/train_data.json
->
-> 
->
+
+
 > ├─data1
 >
 > │ │   node_f:
@@ -237,15 +235,15 @@ The training set and test set are divided as follows:
 
 ##### DS1
 
-<img src="https://github.com/netlearningteam/NetLearningDS/blob/master/pics/DS1.png"   style="zoom:66%;" />
+<img src="https://github.com/netlearningteam/NetLearningDS/blob/master/pics/DS1.png"   style="zoom:45%;" />
 
 ##### DS2
 
-<img src="https://github.com/netlearningteam/NetLearningDS/blob/master/pics/DS2.png"   style="zoom:66%;" />
+<img src="https://github.com/netlearningteam/NetLearningDS/blob/master/pics/DS2.png"   style="zoom:45%;" />
 
 ##### DS3
 
-<img src="https://github.com/netlearningteam/NetLearningDS/blob/master/pics/DS3.png"   style="zoom:66%;" />
+<img src="https://github.com/netlearningteam/NetLearningDS/blob/master/pics/DS3.png"   style="zoom:45%;" />
 
 Note: The horizontal axis is expanded net structures. The vertical axis is λ.
 
