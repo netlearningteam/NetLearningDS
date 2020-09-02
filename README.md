@@ -1,8 +1,8 @@
-# Net Learning DataSets 
+# Net Learning Datasets 
 
 ## 1.  Overview:
 
- We generated three SPN data sets, in order to test the effectiveness of the “Net Learning” algorithm. The data in the data set is randomly generated, and the following steps are mainly used: (1) First, a SPN is randomly generated. (2) Generate reachability graph based on SPN. (3) Calculate the SPN performance index based on the reachable graph.  
+ We generated three stochastic Petri nets(SPN) data sets, in order to test the effectiveness of the “Net Learning” algorithm. The data in the data set is randomly generated, and the following steps are mainly used: (1) First, a SPN is randomly generated. (2) Generate reachability graph based on SPN. (3) Calculate the SPN performance index based on the reachable graph.  
 
 
 
@@ -78,13 +78,13 @@
 
 ### **Description:**
 
-**DS+{index}**: The location where the index of the data set is stored.
+**DS+{index}**: The location(directory)  where the index of the data set is stored.  For example, the storage location (directory) of the first data set is DS1.
 
-**ori_data**: Store the information that constitutes the original petri net. Original petri net (![](https://latex.codecogs.com/gif.latex?{A^{&plus;}}^{T}$,&space;${A^{-}}^{T}$,&space;${M_{0}}^{T})), reachable graph, λ, average number of markers and so on.
+**ori_data**: Store the information that constitutes the original petri net. Original petri net (![](https://latex.codecogs.com/gif.latex?{A^{&plus;}}^{T}$,&space;${A^{-}}^{T}$,&space;${M_{0}}^{T})), reachable graph, λ, average number of tokens and so on.  Where ![](https://latex.codecogs.com/gif.latex?M_0) is the initial marking,  and  ![](https://latex.codecogs.com/gif.latex?A^&plus;,A^-)are the incidence matrix . 
 
 **preprocessd_data**: Preprocess the original ori_data into the input information of the net learning algorithm.
 
-**visualization_for_ds1**: Visualize the first 80 data in the training set and the first 20 data in the test set in the DS1 data set. Including visualization reachable graph, visualization of the original structure of petri net.
+**visualization_for_ds1**:  Visualize the 100 data in the DS1 data set，including visualization of the reachable marking graph, and visualization of the original structure of petri net.
 
 **test_data.json**: store test data.
 
@@ -181,15 +181,15 @@ We save the data as a json file. There are two forms of data, including: unproce
 
 **arr_edge**: The set of reachable graph edge indexes. For example: [0,1] means that there is a directed arc from 0→1 between the 0th vertex and the 1th vertex.
 
-**arr_tranidx**: The number of changes in the original petri net on the reachable graph.
+**arr_tranidx**: The number of transitions in the original petri net on the reachable graph.
 
-**spn_labda**: The λ corresponding to each arc of the reachable graph.
+**spn_labda**: The λ corresponding to each arc of the reachable graph.  Where λ is the average trigger rate of transitions.
 
 **spn_steadypro**:  SPN steady state probability.
 
-**spn_markdens**: SPN markings density function.
+**spn_markdens**: SPN tokens density function.
 
-**spn_mu**: The average number of markings.
+**spn_mu**: The average number of tokens.
 
  
 
@@ -197,13 +197,13 @@ We save the data as a json file. There are two forms of data, including: unproce
 
 **data+{index}**: Store the index data.
 
-**node_f**: Node features of the net learning algorithm.
+**node_f**: Node features.
 
-**edge_index**: edge index of the net learning algorithm.
+**edge_index**: Edge index.
 
-**edge_f**: Edge features of the net learning algorithm.
+**edge_f**: Edge features.
 
-**label**: The label value of the net learning algorithm.
+**label**: The labels.
 
 ## 4.  Partition data set
 
@@ -235,15 +235,15 @@ The training set and test set are divided as follows:
 
 ##### DS1
 
-<img src="https://github.com/netlearningteam/NetLearningDS/blob/master/pics/DS1.png"   style="zoom:45%;" />
+<img src="https://github.com/netlearningteam/NetLearningDS/blob/master/pics/DS1.png"   style="zoom:20%;" />
 
 ##### DS2
 
-<img src="https://github.com/netlearningteam/NetLearningDS/blob/master/pics/DS2.png"   style="zoom:45%;" />
+<img src="https://github.com/netlearningteam/NetLearningDS/blob/master/pics/DS2.png"   style="zoom:20%;" />
 
 ##### DS3
 
-<img src="https://github.com/netlearningteam/NetLearningDS/blob/master/pics/DS3.png"   style="zoom:45%;" />
+<img src="https://github.com/netlearningteam/NetLearningDS/blob/master/pics/DS3.png"   style="zoom:20%;" />
 
 Note: The horizontal axis is expanded net structures. The vertical axis is λ.
 
