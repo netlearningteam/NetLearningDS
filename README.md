@@ -235,15 +235,15 @@ The training set and test set are divided as follows:
 
 ##### DS1
 
-<img src="https://github.com/netlearningteam/NetLearningDS/blob/master/pics/DS1.png"   style="zoom:20%;" />
+<img src="https://github.com/netlearningteam/NetLearningDS/blob/master/pics/DS1.png"   width="30%" height="30%" />
 
 ##### DS2
 
-<img src="https://github.com/netlearningteam/NetLearningDS/blob/master/pics/DS2.png"   style="zoom:20%;" />
+<img src="https://github.com/netlearningteam/NetLearningDS/blob/master/pics/DS2.png"   width="30%" height="30%" />
 
 ##### DS3
 
-<img src="https://github.com/netlearningteam/NetLearningDS/blob/master/pics/DS3.png"   style="zoom:20%;" />
+<img src="https://github.com/netlearningteam/NetLearningDS/blob/master/pics/DS3.png"   width="30%" height="30%" />
 
 Note: The horizontal axis is expanded net structures. The vertical axis is λ.
 
