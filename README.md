@@ -80,11 +80,11 @@
 
 **DS+{index}**: The location(directory)  where the index of the data set is stored.  For example, the storage location (directory) of the first data set is DS1.
 
-**ori_data**: Store the information of a petri net, including the original petri net (![](https://latex.codecogs.com/gif.latex?{A^{&plus;}}^{T}$,&space;${A^{-}}^{T}$,&space;${M_{0}}^{T})), the reachable marking graph, **the average firing rate** λ, the average number of tokens and so on, where ![](https://latex.codecogs.com/gif.latex?A^&plus;,A^-)are the input matrix and output matrix of the Petri net, ![](https://latex.codecogs.com/gif.latex?M_0)is the initial marking, λ is the average firing rate of a transition. 
+**ori_data**: Store the information of a petri net, including the original petri net (![](https://latex.codecogs.com/gif.latex?{A^{&plus;}}^{T}$,&space;${A^{-}}^{T}$,&space;${M_{0}}^{T})), the reachable marking graph, the average firing rate λ, the average number of tokens and so on, where ![](https://latex.codecogs.com/gif.latex?A^&plus;,A^-)are the input matrix and output matrix of the Petri net, ![](https://latex.codecogs.com/gif.latex?M_0)is the initial marking, λ is the average firing rate of a transition. 
 
 **preprocessd_data**: Preprocess the original ori_data into the input information of the net learning algorithm.
 
-**visualization_for_ds1**:  Visualize the 100 data in the DS1 data set，including the  visualization of the reachable marking graph, and **the** visualization of the original structure of the Petri net.
+**visualization_for_ds1**:  Visualize the 100 data in the DS1 data set，including the  visualization of the reachable marking graph, and the visualization of the original structure of the Petri net.
 
 **test_data.json**: store test data.
 
