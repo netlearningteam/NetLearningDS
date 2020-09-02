@@ -2,7 +2,7 @@
 
 ## 1.  Overview:
 
- We generated three stochastic Petri nets(SPN) data sets, in order to test the effectiveness of the “Net Learning” algorithm. The data in the data set is randomly generated, and the following steps are mainly used: (1) First, a SPN is randomly generated. (2) Generate reachability graph based on SPN. (3) Calculate the SPN performance index based on the reachable graph.  
+ We generated three stochastic Petri net(SPN) data sets, in order to test the effectiveness of the “Net Learning” algorithm. The data in the data set is randomly generated, and the following steps are mainly used: (1) First, a SPN is randomly generated. (2) Generate reachability graph based on SPN. (3) Calculate the SPN performance index based on the reachable graph.  
 
 
 
