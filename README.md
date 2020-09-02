@@ -80,7 +80,9 @@
 
 **DS+{index}**: The location(directory)  where the index of the data set is stored.  For example, the storage location (directory) of the first data set is DS1.
 
-**ori_data**: Store the information that constitutes the original petri net. Original petri net (![](https://latex.codecogs.com/gif.latex?{A^{&plus;}}^{T}$,&space;${A^{-}}^{T}$,&space;${M_{0}}^{T})), reachable graph, λ, average number of tokens and so on.  Where ![](https://latex.codecogs.com/gif.latex?M_0) is the initial marking,  and  ![](https://latex.codecogs.com/gif.latex?A^&plus;,A^-)are the incidence matrix . 
+**ori_data**: Store the information of a petri net, including the original petri net (![](https://latex.codecogs.com/gif.latex?{A^{&plus;}}^{T}$,&space;${A^{-}}^{T}$,&space;${M_{0}}^{T})), the reachable marking graph, λ, the average number of tokens and so on, where ![](https://latex.codecogs.com/gif.latex?A^&plus;,A^-)are adjacency matrices of the Petri net, ![](https://latex.codecogs.com/gif.latex?M_0)is the initial marking, λ is the average firing rate of a transition. 
+
+Store the information that constitutes the original petri net. Original petri net (![](https://latex.codecogs.com/gif.latex?{A^{&plus;}}^{T}$,&space;${A^{-}}^{T}$,&space;${M_{0}}^{T})), reachable graph, λ, average number of tokens and so on.  Where ![](https://latex.codecogs.com/gif.latex?M_0) is the initial marking,  and  ![](https://latex.codecogs.com/gif.latex?A^&plus;,A^-)are the incidence matrix . 
 
 **preprocessd_data**: Preprocess the original ori_data into the input information of the net learning algorithm.
 
@@ -235,15 +237,15 @@ The training set and test set are divided as follows:
 
 ##### DS1
 
-<img src="https://github.com/netlearningteam/NetLearningDS/blob/master/pics/DS1.png"   width="30%" height="30%" />
+<img src="https://github.com/netlearningteam/NetLearningDS/blob/master/pics/DS1.png"   width="60%" height="60%" />
 
 ##### DS2
 
-<img src="https://github.com/netlearningteam/NetLearningDS/blob/master/pics/DS2.png"   width="30%" height="30%" />
+<img src="https://github.com/netlearningteam/NetLearningDS/blob/master/pics/DS2.png"   width="60%" height="60%" />
 
 ##### DS3
 
-<img src="https://github.com/netlearningteam/NetLearningDS/blob/master/pics/DS3.png"   width="30%" height="30%" />
+<img src="https://github.com/netlearningteam/NetLearningDS/blob/master/pics/DS3.png"   width="60%" height="60%" />
 
 Note: The horizontal axis is expanded net structures. The vertical axis is λ.
 
